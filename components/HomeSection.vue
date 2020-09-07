@@ -5,11 +5,12 @@
     </h1>
 
     <vueper-slides
+      :touchable="$vuetify.breakpoint.isMobile"
       :bullets="false"
       :bullets-outside="false"
       :arrows-outside="false"
       :visible-slides="8"
-      :slide-multiple="true"
+      :slide-multiple="!$vuetify.breakpoint.isMobile"
       :breakpoints="breakpoints"
       fixed-height="true"
     >

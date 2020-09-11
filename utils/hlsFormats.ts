@@ -78,9 +78,9 @@ export function getHlsAudioCodecs(
     }
   }
 
-  if (hasMp3Support(videoTestElement)) {
+  /* if (hasMp3Support(videoTestElement)) {
     hlsVideoAudioCodecs.push('mp3');
-  }
+  } */
 
   if (hasAacSupport(videoTestElement)) {
     hlsVideoAudioCodecs.push('aac');

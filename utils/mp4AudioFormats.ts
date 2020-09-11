@@ -119,9 +119,9 @@ export function getSupportedMP4AudioCodecs(
     codecs.push('eac3');
   }
 
-  if (hasMp3Support(videoTestElement)) {
+  /* if (hasMp3Support(videoTestElement)) {
     codecs.push('mp3');
-  }
+  } */
 
   if (hasAacSupport(videoTestElement)) {
     codecs.push('aac');
